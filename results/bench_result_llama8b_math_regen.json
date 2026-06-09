@@ -1,0 +1,143 @@
+{
+    "model": "/home/lishen/SpecForge/outputs/llama3.1-8b-eagle3-perfectblend_math_regenerated_llama3.1_8b/epoch_2_step_300000",
+    "gsm8k": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 970.7190237240866,
+                    "output_throughput": 122.06209737749877,
+                    "accept_length": 2.256226673775611,
+                    "accuracy": 0.7543593631539045,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "math500": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 1527.1263284570305,
+                    "output_throughput": 192.0083456987236,
+                    "accept_length": 3.1505764540287315,
+                    "accuracy": 0.392,
+                    "num_questions": 500,
+                    "num_valid_predictions": 500,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "mtbench": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 914.8138441829942,
+                    "output_throughput": 64.31800346500897,
+                    "accept_length": 1.8365951868152448,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "gpqa": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 3821.338462896063,
+                    "output_throughput": 87.58423344326076,
+                    "accept_length": 2.5123406746836014,
+                    "accuracy": 0.234375,
+                    "num_questions": 448,
+                    "num_valid_predictions": 352,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "financeqa": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 947.2995969710173,
+                    "output_throughput": 54.87704224325822,
+                    "accept_length": 1.645459437217105,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "humaneval": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 852.0233751630876,
+                    "output_throughput": 72.22102326502679,
+                    "accept_length": 2.0595086685855812,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "livecodebench": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 2497.462123817997,
+                    "output_throughput": 66.50431188365201,
+                    "accept_length": 1.924900910924136,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ]
+}

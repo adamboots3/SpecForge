@@ -1,0 +1,143 @@
+{
+    "model": "/home/lishen/SpecForge/outputs/llama3.1-8b-eagle3-perfectblend-llama3.1-8b/epoch_0_step_354683",
+    "mtbench": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 611.685295084957,
+                    "output_throughput": 96.18017708244697,
+                    "accept_length": 2.7089050557141543,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "gpqa": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 3341.6270106269512,
+                    "output_throughput": 101.805796672733,
+                    "accept_length": 2.8619488680816696,
+                    "accuracy": 0.20758928571428573,
+                    "num_questions": 448,
+                    "num_valid_predictions": 347,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "financeqa": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 881.5821542120539,
+                    "output_throughput": 58.96784519925257,
+                    "accept_length": 1.7332955454787944,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "gsm8k": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 1441.0991934859194,
+                    "output_throughput": 81.91177993408083,
+                    "accept_length": 2.4858484605989135,
+                    "accuracy": 0.7589082638362395,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "math500": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 2651.7760310159065,
+                    "output_throughput": 115.8197360590585,
+                    "accept_length": 3.2404646598930142,
+                    "accuracy": 0.378,
+                    "num_questions": 500,
+                    "num_valid_predictions": 500,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "humaneval": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 544.590042217169,
+                    "output_throughput": 112.99141598233956,
+                    "accept_length": 3.164840816746387,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "livecodebench": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 1627.6809830998536,
+                    "output_throughput": 102.04210881894338,
+                    "accept_length": 2.9089444279033927,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ]
+}

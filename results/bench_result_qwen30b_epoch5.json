@@ -1,0 +1,63 @@
+{
+    "model": "/home/lishen/SpecForge/outputs/qwen3-30b-a3b-instruct-eagle3-gsm8k-regen/epoch_5_step_10000",
+    "mtbench": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 1063.8984111460013,
+                    "output_throughput": 92.67614178856891,
+                    "accept_length": 1.4141996557659209,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "gsm8k": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 4.198377762993914,
+                    "output_throughput": 115.04443555731079,
+                    "accept_length": 2.1184210526315788,
+                    "accuracy": 1.0,
+                    "num_questions": 5,
+                    "num_valid_predictions": 5,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": 5
+        }
+    ],
+    "humaneval": [
+        {
+            "batch_size": 1,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 18.84395763000066,
+                    "output_throughput": 93.9823807065065,
+                    "accept_length": 1.4421824104234529,
+                    "accuracy": 0.0,
+                    "num_questions": 5,
+                    "num_valid_predictions": 5,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": 5
+        }
+    ]
+}
